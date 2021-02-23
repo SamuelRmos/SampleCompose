@@ -23,7 +23,7 @@ Kotlin APIs.
 
 ## Follow Me
 
- <a href = "https://twitter.com/_gurupreet">
+ <a href = "https://twitter.com/SamuelRamos_MG">
      <img src = "https://img.shields.io/twitter/url?label=follow&style=social&url=https%3A%2F%2Ftwitter.com%2FSamuelRamos_MG" />
   </a>
     
