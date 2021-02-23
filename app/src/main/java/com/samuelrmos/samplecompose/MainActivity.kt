@@ -184,7 +184,7 @@ fun ProfileContent(userName: String, onlineStatus: Boolean, alignment: Alignment
         horizontalAlignment = alignment
     ) {
         Providers(
-            AmbientContentAlpha provides (
+            LocalContentAlpha provides (
                     if (onlineStatus)
                         1f else ContentAlpha.medium)
         ) {
@@ -194,7 +194,7 @@ fun ProfileContent(userName: String, onlineStatus: Boolean, alignment: Alignment
             )
         }
 
-        Providers(AmbientContentAlpha provides (ContentAlpha.medium)) {
+        Providers(LocalContentAlpha provides (ContentAlpha.medium)) {
             Text(
                 text = if (onlineStatus) "Active now" else "Offline",
                 style = MaterialTheme.typography.body2
